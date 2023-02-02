@@ -8,7 +8,7 @@ test("Can set school via constructor", () => {
 
 test("getRole() should return \"Intern\"", () => {
   const testValue = "Intern";
-  const e = new Intern("Raikes", 1, "aaron@raikes.com.au", "University of Sydney");
+  const e = new Intern("Raikes", 1, "aaron@raikes.com.au", testValue);
   expect(e.getRole()).toBe(testValue);
 });
 
